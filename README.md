@@ -1,6 +1,7 @@
 Small little project, adjust the parameters for your own use
 
-Require CV2, face_recognition, pyFirmata
+Hardware: Arduino board (that pyFirmata support), RC Servo x2 (Any kind)
+Library requirements: CV2, face_recognition, pyFirmata
 
 if you get error: AttributeError: module 'inspect' has no attribute 'getargspec'. Did you mean: 'getargs'?
 replace with: len_args = len(inspect.getfullargspec(func)[0]
